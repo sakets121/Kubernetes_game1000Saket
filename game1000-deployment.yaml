@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: game1000
-          image: xyz/game1000:v1
+          image: ssaket990/game1000:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
